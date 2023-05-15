@@ -1,0 +1,16 @@
+[node]
+
+standardRPC="https://rpc-blockspacerace.pops.one/"
+# The default api is http://localhost:26659 You can refer https://docs.celestia.org/developers/node-gateway-docs/
+gatewayAPI=[""]
+
+# Minimum balance of the light node , the denom is utia
+minimumBalance=1000000
+
+[discord]
+
+# discord userid, can be empty https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
+alertuserid=[""]
+
+# discord role id, can be empty https://www.itgeared.com/how-to-get-role-id-on-discord/
+alertroleid=[""]

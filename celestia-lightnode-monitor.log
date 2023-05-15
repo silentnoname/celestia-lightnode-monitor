@@ -1,0 +1,15 @@
+{"level":"INFO","ts":"2023-05-16T02:45:27.289+0800","caller":"cmd/main.go:16","msg":"Start celestia-lightnode-monitor"}
+{"level":"INFO","ts":"2023-05-16T02:45:27.289+0800","caller":"cmd/main.go:17","msg":"Loading config"}
+{"level":"INFO","ts":"2023-05-16T02:48:32.344+0800","caller":"cmd/main.go:16","msg":"Start celestia-lightnode-monitor"}
+{"level":"INFO","ts":"2023-05-16T02:48:32.345+0800","caller":"cmd/main.go:17","msg":"Loading config"}
+{"level":"INFO","ts":"2023-05-16T02:48:32.346+0800","caller":"cmd/main.go:22","msg":"Standard rpc is https://rpc.evmos.silentvalidator.com"}
+{"level":"INFO","ts":"2023-05-16T02:48:32.346+0800","caller":"cmd/main.go:23","msg":"Light node to check：http://65.109.172.199:26659"}
+{"level":"INFO","ts":"2023-05-16T02:48:32.346+0800","caller":"cmd/main.go:24","msg":"Will alert when node balance is less than 1000000 utia"}
+{"level":"INFO","ts":"2023-05-16T02:48:32.346+0800","caller":"cmd/main.go:25","msg":"Will check node performance every 5 minutes"}
+{"level":"INFO","ts":"2023-05-16T02:53:32.347+0800","caller":"cmd/main.go:28","msg":"Start to check node performance"}
+{"level":"INFO","ts":"2023-05-16T02:53:32.347+0800","caller":"monitor/monitor.go:255","msg":"Checking node: http://65.109.172.199:26659"}
+{"level":"ERROR","ts":"2023-05-16T02:53:34.085+0800","caller":"monitor/monitor.go:213","msg":"Node http://65.109.172.199:26659 is not synced, gateway height is 494396 standard RPC block is 13308479"}
+{"level":"ERROR","ts":"2023-05-16T02:53:34.318+0800","caller":"monitor/monitor.go:246","msg":"Node http://65.109.172.199:26659 does not have enough balance, balance is 950000 minimum balance is 1000000"}
+{"level":"INFO","ts":"2023-05-16T02:53:34.318+0800","caller":"cmd/main.go:33","msg":"Start to check and send alert"}
+{"level":"INFO","ts":"2023-05-16T02:53:34.318+0800","caller":"alert/alert.go:176","msg":"Sending alert via Discord"}
+{"level":"INFO","ts":"2023-05-16T02:53:34.878+0800","caller":"alert/alert.go:207","msg":"send alert via discord successfully"}
